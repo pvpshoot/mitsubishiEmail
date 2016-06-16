@@ -1,0 +1,107 @@
+@import 'settings';
+@import 'foundation';
+
+.header {
+		img{
+			width: 100%;
+		}
+
+  }
+
+  .header .columns {
+    padding-bottom: 0;
+  }
+
+  .header p {
+    color: #fff;
+    padding-top: 15px;
+  }
+
+
+  .header .container {
+    background: transparent;
+  }
+
+  table.button.facebook table td {
+    background: #3B5998 !important;
+    border-color: #3B5998;
+  }
+
+  table.button.twitter table td {
+    background: #1daced !important;
+    border-color: #1daced;
+  }
+
+  table.button.google table td {
+    background: #DB4A39 !important;
+    border-color: #DB4A39;
+  }
+
+  .wrapper.secondary {
+    background: #f3f3f3;
+  }
+
+
+.hello{
+	background: $white;
+	p{
+		padding-top: 40px;
+		text-align: center;
+		font-family: Tahoma;
+		font-size: 16px;
+		text-align: center;
+		a{
+			color: #DE3230;
+		}
+	}
+}
+.main{
+	h1{
+		font-size: 16px;
+		text-align: center;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	text-align: center;
+	p{
+		text-align: center;
+		font-size: 14px;
+		padding-bottom: 20px;
+	}
+	p>b{
+		display: block;
+		text-align: center;
+	}
+}
+.app{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	a{
+		display: inline-block;
+	}
+}
+
+.socials{
+	text-align: center;
+	font-size: 12px;
+	a{
+		display: inline-block;
+	}
+	img{
+		width: 39px;
+	}
+}
+
+.secondary{
+	background: $white!important;
+}
+.footer{
+	font-size: 12px;
+	text-align: center;
+	color: #4A4A4A;
+	padding: 40px 0;
+}
+.footerImage{
+	width: 100%;
+}
